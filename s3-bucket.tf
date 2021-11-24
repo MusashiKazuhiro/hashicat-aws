@@ -6,4 +6,9 @@ module "s3-bucket" {
   # insert required variables here
   bucket = "gaurav"
   acl    = "private"
+
+  tags = {
+    Department = "Finance"
+    Billable = "true"
+  }
 }

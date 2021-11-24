@@ -4,7 +4,7 @@ module "s3-bucket" {
   
 
   # insert required variables here
-  bucket_prefix = "MusashiKazuhiro"
+  bucket_prefix = "musashi-kazuhiro"
   acl    = "private"
 
   tags = {
